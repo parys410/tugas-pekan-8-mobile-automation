@@ -1,0 +1,21 @@
+{
+  "name": "tugas-pekan-8-mobile-automation",
+  "version": "1.0.0",
+  "description": "Tugas Pekan 8 - Mobile Automation",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "ArySetiyawan (parys410@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@wdio/appium-service": "^8.0.13",
+    "@wdio/cli": "^8.0.13",
+    "@wdio/local-runner": "^8.0.13",
+    "@wdio/mocha-framework": "^8.0.13",
+    "@wdio/spec-reporter": "^8.0.13"
+  }
+}
